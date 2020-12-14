@@ -1,10 +1,11 @@
-mod day5;
+mod day6;
+mod day7;
 
-// #[macro_use]
-// extern crate lazy_static;
+#[macro_use]
+extern crate lazy_static;
 
-const INPUT_FILE: &str = "/home/private/Documents/aoc/data/day5_input.txt";
+const INPUT_FILE: &str = "/home/private/Documents/aoc/data/day6_input.txt";
 
 fn main() {
-    day5::day5(INPUT_FILE);
+    day6::day6(INPUT_FILE);
 }
